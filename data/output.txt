@@ -1,0 +1,9 @@
+FIFO for "./data/test5.txt": 
+Nothing to apply or Error in file.
+
+LRU for "./data/test5.txt": 
+Nothing to apply or Error in file.
+
+OPT for "./data/test5.txt": 
+Nothing to apply or Error in file.
+

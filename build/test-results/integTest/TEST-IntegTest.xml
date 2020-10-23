@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="IntegTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-10-16T22:08:03" hostname="MacBook-Pro.local" time="0.043">
+  <properties/>
+  <testcase name="fifth file from data check()" classname="IntegTest" time="0.043"/>
+  <system-out><![CDATA[Error in input!
+Be careful! There was a letter "w" in the sequence! 
+(2nd line in your "./data/test5.txt" file).
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
