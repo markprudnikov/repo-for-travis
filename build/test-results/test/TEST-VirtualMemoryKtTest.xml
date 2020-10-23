@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="VirtualMemoryKtTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-10-23T11:55:09" hostname="MacBook-Pro.local" time="0.075">
+<testsuite name="VirtualMemoryKtTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-10-23T18:26:13" hostname="MacBook-Pro.local" time="0.091">
   <properties/>
-  <testcase name="OPT algorithm check()" classname="VirtualMemoryKtTest" time="0.044"/>
-  <testcase name="loadMemory function check()" classname="VirtualMemoryKtTest" time="0.002"/>
+  <testcase name="OPT algorithm check()" classname="VirtualMemoryKtTest" time="0.058"/>
+  <testcase name="loadMemory function check()" classname="VirtualMemoryKtTest" time="0.001"/>
   <testcase name="FIFO algorithm check()" classname="VirtualMemoryKtTest" time="0.002"/>
   <testcase name="apply algo function check()" classname="VirtualMemoryKtTest" time="0.003"/>
   <testcase name="LRU algorithm check()" classname="VirtualMemoryKtTest" time="0.003"/>
-  <testcase name="validateInput function check()" classname="VirtualMemoryKtTest" time="0.017"/>
+  <testcase name="validateInput function check()" classname="VirtualMemoryKtTest" time="0.019"/>
   <system-out><![CDATA[Be careful! The number of page can't be "-1" (2nd line in your "./data/test4.txt" file).
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>

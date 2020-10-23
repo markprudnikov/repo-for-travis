@@ -49,7 +49,7 @@ test{
 
 wrapper {
     gradleVersion = '5.3'
-    distributionUrl = distributionUrl.replace("bin", "all")
+    //distributionUrl = distributionUrl.replace("bin", "all")
 }
 task integTest(type: Test){
     testClassesDirs = sourceSets.integTest.output.classesDirs
