@@ -1,2 +1,3 @@
 language: java
-gradle integTest
+
+script: gradle test 
