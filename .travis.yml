@@ -1,9 +1,7 @@
 language: java
 
-before_install:
-  -  wrapper {
-  gradleVersion = '5.3'
-}
+os: osx
 
-script: gradle test 
+script:
+  ./script
 

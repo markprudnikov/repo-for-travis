@@ -1,0 +1,12 @@
+FIFO for "data/tests/test9.txt": 
+Removed el-ts: [1, 2, 3, 4, 5]
+Quantity: 5
+
+LRU for "data/tests/test9.txt": 
+Removed el-ts: [1, 2, 3, 4, 5]
+Quantity: 5
+
+OPT for "data/tests/test9.txt": 
+Removed el-ts: [1, 2, 3, 4, 5]
+Quantity: 5
+

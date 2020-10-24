@@ -23,6 +23,18 @@ sourceSets {
         }
     }
 }
+jar { //вот эта параша позволяет билдить jar файл. Я без понятия, что это все делает, просто с форума скопипастил
+    manifest {
+        attributes(
+                'Main-Class': 'markprudnikov.virtualMemory.VirtualMemoryKt' //package вещь
+        )
+    }
+    from {
+        configurations.runtimeClasspath.collect {
+            it.isDirectory()? it: zipTree(it)
+        }
+    }
+}
 configurations {
     integTestImplementation.extendsFrom implementation
     integTestRuntimeOnly.extendsFrom runtimeOnly

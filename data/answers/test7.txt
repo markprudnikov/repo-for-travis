@@ -1,0 +1,12 @@
+FIFO for "data/tests/test7.txt": 
+Removed el-ts: [10, 20, 3, 7, 21, 5, 24, 16]
+Quantity: 8
+
+LRU for "data/tests/test7.txt": 
+Removed el-ts: [10, 20, 3, 7, 21, 24, 16]
+Quantity: 7
+
+OPT for "data/tests/test7.txt": 
+Removed el-ts: [10, 20, 7, 3, 21, 24]
+Quantity: 6
+

@@ -3,7 +3,6 @@ package markprudnikov.virtualMemory
 import java.io.File
 import java.lang.Exception
 val write = File("./data/output.txt").bufferedWriter()
-
 /*
     * typealias to make my code more readable
     * @param [Pages] - pages, that already inside our memory
@@ -199,6 +198,7 @@ fun MutableList<Pages>.optAlgorithm(seqOfOffers: List<Offers>): Pair<List<Int>,I
 }
 
 fun executeAllProgram(path: String){
+
     val (sizeOfMem, seqOfOffers) = validateInput(path)
 
     val fifo = Algorithm(MutableList(sizeOfMem) { 0 },seqOfOffers)
@@ -220,11 +220,9 @@ fun executeAllProgram(path: String){
     write.write("OPT for \"${path}\": ")
     write.newLine()
     applyAlgo(opt.mem, opt.seq) {optAlgorithm(opt.seq)}
-
     write.close()
 }
-fun main() {
-        print("Input the path to file: ")
-        for (path in readLine().toString().split(' ')) executeAllProgram(path)
 
+fun main(args: Array<String>) {
+    executeAllProgram(args[0])
 }

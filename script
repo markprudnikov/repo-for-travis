@@ -1,0 +1,9 @@
+#!/bin/bash
+a=0
+gradle jar
+while read -r file; do
+java -jar build/libs/virtualMemory-1.0-SNAPSHOT.jar data/tests/"$file"
+diff -q -B -w data/output.txt data/answers/"$file"
+a=$((a+$?))
+done < data/filesForTest
+exit $a
